@@ -1,0 +1,52 @@
+  	*{
+  		margin: 0;
+  		padding: 0;
+  	}
+  body{
+  	background: #000;
+  }
+  .container{
+  	position: relative;
+  	}
+  video, canvas {
+    position: absolute;
+    border: 1px #fff dashed;
+  }
+  #tips{
+  	color: #FFFFFF;
+  	position: absolute;
+  }
+  #detecting{
+  	background: rgba(0,0,0,0.5);
+  	position: absolute;
+  	z-index: 999;
+  	opacity: 0;
+  	transition: 1s all ease;
+  }
+  #modal{
+  	width: 500px;
+  	height: 500px;
+  	position: relative;
+  	margin: 200px auto;
+  }
+  .squard{
+  	width: 200px;
+  	height: 200px;
+  	animation: rotate 2s infinite ease;
+  	margin: 50px auto; 
+  	background: #FFFFFF;
+  }
+  @keyframes rotate{
+  	from{transform: rotateZ(0); }
+  	to{transform: rotateZ(360deg);}
+  }
+  h2{
+  	color: #FFFFFF;
+  	text-align: center;
+  	position: relative;
+  	bottom: 0px;
+  }
+  #bdtts_div_id{
+  	display: none;
+  }
+  
